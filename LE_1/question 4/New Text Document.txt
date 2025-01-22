@@ -1,0 +1,25 @@
+class One{
+    int y;
+    One(int x){
+        y=x;
+    }
+    void show(){
+            System.out.println("y");
+        }
+    
+}
+class Two extends One{
+        Two(int x){
+            super(x);
+            
+        }
+    }
+public class Main
+{
+	public static void main(String[] args) {
+		
+		Two t=new Two(5);
+		
+		
+	}
+}
