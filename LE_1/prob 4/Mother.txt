@@ -1,0 +1,8 @@
+class Mother{
+    
+    Mother(int x){
+        y=x;
+      System.out.println("mother");
+    }
+       
+}
