@@ -1,0 +1,14 @@
+
+public class Main
+{
+	public static void main(String[] args) {
+		Beverage r = new Rum();
+		r.templateMethod(35);
+		System.out.println(" ");
+		Beverage b = new Beer();
+		b.templateMethod(200);
+		System.out.println(" ");
+		Beverage w = new Whishkey();
+		w.templateMethod(50);
+	}
+}

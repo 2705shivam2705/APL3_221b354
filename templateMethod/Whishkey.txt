@@ -1,0 +1,10 @@
+class Whishkey extends Beverage{
+        protected void add(){
+            System.out.println("Add ice and water to it");
+        }
+        protected void stirr(){
+            System.out.println("Stirr for 30 seconds");
+        }
+      
+       
+}
